@@ -13,7 +13,7 @@
 
 ### 環境の構築
 ```
-$ git clone https://github.com/uhmfg-yuyasaito/drill001.git
+$ git clone https://github.com/uhmfg-yuyasaito/uh-drill.git
 ```
 
 ### コンテナの構築
