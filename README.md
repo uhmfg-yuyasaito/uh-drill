@@ -9,6 +9,7 @@
 - Python 3.11.0
 - PostgreSQL 15
 - nginx 1.23.2
+- django 4.XX
 
 ### 環境の構築
 ```
