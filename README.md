@@ -1,4 +1,4 @@
-# Project MJR
+# Project UH-Drill
 
 ### ローカル環境
 - docker 20.10.20
