@@ -22,7 +22,12 @@ $ docker-compose build
 
 ### コンテナの作成と立ち上げ
 ```
-$ docker-compose up
+$ docker-compose up -d
+```
+
+### コンテナ起動確認(windowsのDockerから確認してもOK)
+```
+$ docker ps -a
 ```
 
 ### アプリのコンテナに接続
@@ -32,5 +37,11 @@ $ docker-compose exec app bash
 
 ### Djangoインストールコマンド
 ```
-$ docker-compose exec app django-admin.py startproject app .
+$ docker-compose exec django /bin/bash
+$ django-admin startproject uhdrill .
+```
+
+### 参考サイト
+```
+https://qiita.com/ftoshiki/items/1cb250a27bbbbaa5c719
 ```
